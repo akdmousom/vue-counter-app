@@ -12,7 +12,15 @@ const countAdd = ()=>{
     }
 }
 
+const countMinus = () =>{
+    if (count.value !== 0) {
 
+        count.value--
+        
+    }
+
+  
+}
 
 
 </script>
