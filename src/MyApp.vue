@@ -1,6 +1,7 @@
 <script setup>
 
 import {ref} from 'vue'
+import HelloWorld from './components/AppHeader.vue';
 
 const count = ref(0)
 
@@ -26,6 +27,8 @@ const countMinus = () =>{
 </script>
 
 <template >
+
+    <HelloWorld/>
 
     <div class="grid justify-center items-center min-h-screen my-auto">
         
